@@ -1,7 +1,11 @@
 ## Proxy
 
 ```bash
-docker-compose up --scale webapp=4
+docker-compose build
+docker-compose up --scale app=4 --build
+
+open http://localhost:1936
+open http://localhost
 ```
 
 ## Resource
