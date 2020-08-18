@@ -1,7 +1,7 @@
 ## Proxy
 
 ```bash
-docker-compose scale webapp=4
+docker-compose up --scale webapp=4
 ```
 
 ## Resource
