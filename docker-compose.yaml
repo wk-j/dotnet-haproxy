@@ -12,9 +12,6 @@ services:
       DNS_ENABLED: "true"
       LOG_LEVEL: "info"
 
-  # webapp:
-  #   image: eeacms/hello
-
   app:
     build:
       context: .
